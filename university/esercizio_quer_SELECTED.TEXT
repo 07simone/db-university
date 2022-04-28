@@ -24,9 +24,3 @@ SELECT * FROM `departments`
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 SELECT * FROM `teachers` WHERE `phone` IS NULL 
 
-
-
-
-
-
-SELECT AVG (`vote`) AS 'voto_medio' FROM `exam_student` 
